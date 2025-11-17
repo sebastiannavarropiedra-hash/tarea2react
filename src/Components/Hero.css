@@ -22,12 +22,14 @@
 }
 
 .Leftbuttons {
-
+display: flex;
+flex-direction: column;
     margin-top: 2rem
 }
 
 .buttonone {
     margin: 1rem;
+    padding: 1rem;
     border-radius: var(--radius-sm, .25rem);
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -38,6 +40,7 @@
 
 .buttontwo {
     margin: 1rem;
+    padding: 1rem;
     border-radius: 2px;
     border-style: dotted;
     border-width: 2px;
