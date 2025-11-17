@@ -50,7 +50,7 @@ function Hero() {
 
                 <div className='RightSide'>
 
-                    <h1>Here goes the table</h1>
+                    <h1>Here goes the table with code</h1>
                 </div>
             </div >
         </main>
