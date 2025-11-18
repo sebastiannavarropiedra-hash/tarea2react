@@ -30,27 +30,27 @@ function Footer() {
 
                 <div className="footer-bottom">
                     © OpenJS Foundation
-                
+
                 </div>
                 <div>
-<div >
-                            <span className="text-2xl">⚡</span>
-                        </div>
-                        <div >
-                            <span className="text-2xl">🦊</span>
-                        </div>
-                        <div >
-                            <span className="text-2xl">☁️</span>
-                        </div>
-                        <div >
-                            <span className="text-2xl">▲</span>
-                        </div>
-                        <div >
-                            <span className="text-2xl">🎯</span>
-                        </div>
-                        <div >
-                            <span className="text-2xl">⚙️</span>
-                        </div>
+                    <div  >
+                        <span >⚡</span>
+                    </div>
+                    <div >
+                        <span >🦊</span>
+                    </div>
+                    <div >
+                        <span >☁️</span>
+                    </div>
+                    <div >
+                        <span >▲</span>
+                    </div>
+                    <div >
+                        <span >🎯</span>
+                    </div>
+                    <div >
+                        <span >⚙️</span>
+                    </div>
 
                 </div>
             </div>

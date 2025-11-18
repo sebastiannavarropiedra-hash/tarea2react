@@ -1,112 +1,217 @@
+/**
+ * Styles for the Hero section copied most of the styled fromthe nodejs website 
+ */
+
+/* Hero section background */
 .HeroSection {
-    background:  radial-gradient(#3fa43bab, white, white);
-    height: 80vh;
+  /* Use a radial gradient to create a background that transitions from a greenish color to white */
+  background: radial-gradient(#3fa43bab, white, white);
+  /* Set the height of the hero section to 80% of the viewport */
+  height: 80vh;
 }
 
+/**
+ * Styles for the inside of the hero section
+ */
 
+/* Inside the hero section styles */
 .Insideherosection {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 3rem;
-    align-items: center;
+  /* Use grid layout to create two columns */
+  display: grid;
+  /* Set the grid template columns to repeat two columns with a minimum width of 0 and a maximum width of 1fr */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Set the gap between grid items to 3rem */
+  gap: 3rem;
+  /* Align items to the center */
+  align-items: center;
 }
 
+/**
+ * Styles for the left side of the hero section
+ */
+
+/* Left side styles */
 .LeftSide {
-    padding: 8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  /* Add padding to the left side */
+  padding: 8rem;
+  /* Use flexbox to create a column layout */
+  display: flex;
+  flex-direction: column;
+  /* Set the gap between flex items to 1rem */
+  gap: 1rem;
 }
 
+/**
+ * Styles for the left side buttons
+ */
+
+/* Left side buttons styles */
 .Leftbuttons {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem
+  /* Use flexbox to create a column layout */
+  display: flex;
+  flex-direction: column;
+  /* Add margin to the left side buttons */
+  margin-top: 2rem;
 }
 
+/**
+ * Styles for the first button
+ */
+
+/* First button styles */
 .buttonone {
-    padding: 1rem 2rem;
-    margin: 1rem;
-    border-radius: var(--radius-sm, .25rem);
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-    border-color: var(--color-green-600, #417e38);
-    background-color: var(--color-green-600, #417e38);
-    color: var(--color-white, #fff);
+  /* Add padding to the first button */
+  padding: 1rem 2rem;
+  /* Add margin to the first button */
+  margin: 1rem;
+  /* Set the border radius to 0.25rem */
+  border-radius: var(--radius-sm, 0.25rem);
+  /* Set the border style to solid */
+  border-style: var(--tw-border-style);
+  /* Set the border width to 1px */
+  border-width: 1px;
+  /* Set the border color to green-600 */
+  border-color: var(--color-green-600, #417e38);
+  /* Set the background color to green-600 */
+  background-color: var(--color-green-600, #417e38);
+  /* Set the color to white */
+  color: var(--color-white, #fff);
 }
 
+/**
+ * Styles for the second button
+ */
+
+/* Second button styles */
 .buttontwo {
-    margin: 1rem;
-    padding: 1rem 2rem;
-    border-radius: 2px;
-    border-style: dotted;
-    border-width: 2px;
-    border-color: #4b5563;
-    background-color: var(--color-white, #fff);
-    color: var(--color-gray-600, #4b5563);
+  /* Add margin to the second button */
+  margin: 1rem;
+  /* Set the padding to 1rem 2rem */
+  padding: 1rem 2rem;
+  /* Set the border radius to 2px */
+  border-radius: 2px;
+  /* Set the border style to dotted */
+  border-style: dotted;
+  /* Set the border width to 2px */
+  border-width: 2px;
+  /* Set the border color to green-600 */
+  border-color: #4b5563;
+  /* Set the background color to white */
+  background-color: var(--color-white, #fff);
+  /* Set the color to gray-600 */
+  color: var(--color-gray-600, #4b5563);
 }
 
+/**
+ * Styles for the partner logos
+ */
+
+/* Partner logos styles */
 .PartnerLogos {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  /* Use flexbox to create a row layout */
+  display: flex;
+  flex-direction: row;
+  /* Set the gap between flex items to 1rem */
+  gap: 1rem;
 }
 
+/**
+ * Styles for the tabs
+ */
 
-/* right side */
-
+/* Tabs styles */
 .tabs {
-     width: 100%;
+  /* Set the width of the tabs to 100% */
+  width: 100%;
+  /* Set the background color of the tabs to #1e1e1e */
   background: #1e1e1e;
+  /* Set the border radius of the tabs to 8px */
   border-radius: 8px;
-  overflow: hidden;
+  /* Set the overflow of the tabs to hidden */
+  overflow-x:auto;
+  /* Set the color of the tabs to white */
   color: white;
 }
 
+/**
+ * Styles for the tabs input
+ */
+
+/* Tabs input styles */
 .tabs input[type="radio"] {
-    display: none;
+  /* Hide the tabs input */
+  display: none;
 }
 
-/* tabs row */
+/**
+ * Styles for the tabs labels
+ */
 
+/* Tabs label styles */
 .tabs label {
-    display: inline-block;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    font-weight: 600;
-    text-align: center;
-    background: #2d2d2d;
-    transition: 0.3s;
+  /* Use flexbox to create a row layout */
+  display: inline-block;
+  /* Set the padding of the tabs labels to 1rem 2rem */
+  padding: 1rem 2rem;
+  /* Set the cursor of the tabs labels to pointer */
+  cursor: pointer;
+  /* Set the font weight of the tabs labels to 600 */
+  font-weight: 600;
+  /* Set the text alignment of the tabs labels to center */
+  text-align: center;
+  /* Set the background color of the tabs labels to #2d2d2d */
+  background: #2d2d2d;
+  /* Set the transition of the tabs labels to 0.3s */
+  transition: 0.3s;
 }
 
+/**
+ * Styles for the tabs label hover
+ */
+
+/* Tabs label hover styles */
 .tabs label:hover {
-     background: #414040;
-
+  /* Set the background color of the tabs labels on hover to #414040 */
+  background: #414040;
 }
 
-/* active tab style  */
-/* This CSS rule sets the active tab style, by giving it a border-bottom */
+/**
+ * Styles for the active tab
+ */
+
+/* Active tab styles */
 #tab1:checked + label[for="tab1"],
 #tab2:checked + label[for="tab2"],
-#tab3:checked + label[for="tab3"]{
-    border-bottom: 2px solid #22c55e;
+#tab3:checked + label[for="tab3"] {
+  /* Set the border bottom of the active tab to 2px solid #22c55e */
+  border-bottom: 2px solid #22c55e;
 }
 
-/* shows the selected radio */
-/* This CSS rule shows the content of the selected radio by setting its display to block */
+/**
+ * Styles for the selected radio
+ */
+
+/* Selected radio styles */
 #tab1:checked~#tab1-content,
 #tab2:checked~#tab2-content,
 #tab3:checked~#tab3-content {
-    display: block;
+  /* Set the display of the selected radio to block */
+  display: block;
 }
 
+/**
+ * Styles for the tab content
+ */
 
-/* Fix for content of tabs  */
-/* This CSS rule sets the default style for the content of the tabs, by hiding it and setting its padding, background and border */
+/* Tab content styles */
 .tab-content {
-    display: none;
-    padding: 20px;
-    background: #2d2d2d;
-    border: 1px solid #333;
+  /* Hide the tab content by default */
+  display: none;
+  /* Set the padding of the tab content to 20px */
+  padding: 20px;
+  /* Set the background color of the tab content to #2d2d2d */
+  background: #2d2d2d;
+  /* Set the border of the tab content to 1px solid #333 */
+  border: 1px solid #333;
+
 }
