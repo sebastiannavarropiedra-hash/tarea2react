@@ -1,8 +1,5 @@
 .HeroSection {
-    background: url("data:image/svg+xml;utf8,\
-  <svg xmlns='http://www.w3.org/2000/svg' width='120' height='104' fill='none' stroke='rgba(0,0,0,0.07)' stroke-width='2'>\
-    <path d='M30 2 L90 2 L120 52 L90 102 L30 102 L0 52 Z'/>\
-  </svg>") repeat, radial-gradient(#3fa43bab, white, white);
+    background:  radial-gradient(#3fa43bab, white, white);
     height: 80vh;
 }
 
@@ -11,25 +8,25 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 3rem;
-    align-items: start;
+    align-items: center;
 }
 
 .LeftSide {
-    padding: 6rem;
+    padding: 8rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    gap: 1rem;
 }
 
 .Leftbuttons {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
     margin-top: 2rem
 }
 
 .buttonone {
+    padding: 1rem 2rem;
     margin: 1rem;
-    padding: 1rem;
     border-radius: var(--radius-sm, .25rem);
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -40,7 +37,7 @@ flex-direction: column;
 
 .buttontwo {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 2px;
     border-style: dotted;
     border-width: 2px;
@@ -54,4 +51,62 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+
+/* right side */
+
+.tabs {
+     width: 100%;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+/* tabs row */
+
+.tabs label {
+    display: inline-block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    background: #2d2d2d;
+    transition: 0.3s;
+}
+
+.tabs label:hover {
+     background: #414040;
+
+}
+
+/* active tab style  */
+/* This CSS rule sets the active tab style, by giving it a border-bottom */
+#tab1:checked + label[for="tab1"],
+#tab2:checked + label[for="tab2"],
+#tab3:checked + label[for="tab3"]{
+    border-bottom: 2px solid #22c55e;
+}
+
+/* shows the selected radio */
+/* This CSS rule shows the content of the selected radio by setting its display to block */
+#tab1:checked~#tab1-content,
+#tab2:checked~#tab2-content,
+#tab3:checked~#tab3-content {
+    display: block;
+}
+
+
+/* Fix for content of tabs  */
+/* This CSS rule sets the default style for the content of the tabs, by hiding it and setting its padding, background and border */
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #2d2d2d;
+    border: 1px solid #333;
 }
