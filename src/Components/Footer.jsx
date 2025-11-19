@@ -9,16 +9,20 @@ function Footer() {
             <div className="footer">
                 <div className="footer-top">
                     <div className="version-badges">
-                        <span className="badge badge-blue">v24.11.1 Latest LTS</span>
-                        <span className="badge badge-green">v25.2.0 Latest Release</span>
+
+                        <a className="badge-wrapperblue" href="#">
+                            <span className="badge badge-blue">v24.11.1</span>
+                            <span className="badge-messageblue">Latest LTS</span>
+                        </a>
+
+                        <a className="badge-wrappergreen" href="#">
+                            <span className="badge badge-green">v25.2.0</span>
+                            <span className="badge-messagegreen">Latest Release</span>
+                        </a>
+
                     </div>
 
-                    <div className="social-icons">
-                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">...</svg></a>
-                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">...</svg></a>
-                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">...</svg></a>
-                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">...</svg></a>
-                    </div>
+
                 </div>
 
                 <div className="footer-links">
@@ -32,8 +36,8 @@ function Footer() {
                     © OpenJS Foundation
 
                 </div>
-                <div>
-                    <div  >
+                <div className="Socialicons">
+                    <div >
                         <span >⚡</span>
                     </div>
                     <div >

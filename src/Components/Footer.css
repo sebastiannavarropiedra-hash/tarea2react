@@ -1,0 +1,83 @@
+.footer {
+    padding: 1rem;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    height: 4vh;
+}
+
+.version-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.badge-wrapperblue {
+    padding: 1rem;
+    border-radius: 3.40282e38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-info-200, #bce6fc);
+    background-color: var(--color-info-100, #e9f4fa);
+    text-decoration: none;
+}
+
+.badge-wrappergreen {
+    padding: 1rem;
+    border-radius: 3.40282e38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-green-200, #c5e5b4);
+    background-color: var(--color-green-100, #edf2eb);
+    text-decoration: none;
+}
+
+.badge-blue {
+    padding: 1rem;
+    border-radius: 3.40282e38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-info-200, #bce6fc);
+    background-color: var(--color-info-600, #0c7bb3);
+    color: white;
+}
+
+.badge-green {
+    padding: 1rem;
+    border-radius: 3.40282e38px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--color-green-600, #417e38);
+    color: white;
+}
+
+.badge-messageblue {
+    color: #0c7bb3;
+}
+
+.badge-messagegreen {
+    color: #417e38;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.Socialicons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}

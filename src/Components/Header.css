@@ -2,6 +2,7 @@
   width: 100%;
   background: white;
   border-bottom: 1px solid #e5e5e5;
+  height: 7vh;
 }
 
 .header-inner {
@@ -10,7 +11,7 @@
   padding: 1rem 1.5rem;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
